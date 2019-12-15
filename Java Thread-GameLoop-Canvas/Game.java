@@ -11,9 +11,9 @@ public class Game extends Canvas implements Runnable {
   private Thread thread;
   private static JFrame screen;
 
-  private final int WIDTH = 160;
-  private final int HEIGHT = 120;
-  private int scale = 2;
+  private final int WIDTH = 512;
+  private final int HEIGHT = 320;
+  private int scale = 1;
   private double maxFPS = 60.0;
   private BufferedImage image;
 
